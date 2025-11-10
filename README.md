@@ -19,9 +19,9 @@
 
 ### 3. **Формат файла с треками**
 
-Исполнитель - Название трека
-The Weeknd - Blinding Lights
-Dua Lipa - Don't Start Now
+    Исполнитель - Название трека
+    The Weeknd - Blinding Lights
+    Dua Lipa - Don't Start Now
 
 
 ### 4. **Запустите скрипт**
@@ -41,8 +41,5 @@ python myscript.py
 
 ## Внимание
 
-**НЕ ПУБЛИКУЙТЕ ФАЙЛ `token`!**  
+**НЕ ПУБЛИКУЙТЕ `token`!**  
 Храните его в безопасности и не передавайте третьим лицам.
-
-
-Сохраните как `README.md` в вашей папке `forYandex`
