@@ -18,7 +18,7 @@ for search in TrackToAdd:
 
         if s_type == 'track' and s_result.title == name:
             client.usersLikesTracksAdd(s_result.id)
-            print(f'Трек {name} добавлен')
+            print(f'Track: {name} was added')
         else:
-            print(f'Трек {name} не добавлен')
+            print(f"Track {name} wasn't added")
     
