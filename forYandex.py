@@ -3,9 +3,11 @@ from re import search
 from types import NoneType
 from yandex_music import Client
 
-client = Client('token').init()
+token = open('token.txt').read()
 
-TrackToAdd = open('My Spotify Library.txt').readlines()[::-1]
+client = Client(token).init()
+
+TrackToAdd = open('TrackList.txt').readlines()[::-1]
 
 for search in TrackToAdd:
 
